@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BA473F"
+    tools:context=".MainActivity"
+    android:id="@+id/choose_item_fragment">
+
+    <Button
+        android:id="@+id/choice_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#34B83A"
+        android:backgroundTintMode="add"
+        android:text="@string/food1"
+        app:layout_constraintBottom_toTopOf="@+id/choice_two"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/choice_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#34B83A"
+        android:backgroundTintMode="add"
+        android:text="@string/food2"
+        app:layout_constraintBottom_toTopOf="@+id/choice_three"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/choice_one" />
+
+    <Button
+        android:id="@+id/choice_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#34B83A"
+        android:backgroundTintMode="add"
+        android:text="@string/food3"
+        app:layout_constraintBottom_toTopOf="@+id/choice_four"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/choice_two" />
+
+    <Button
+        android:id="@+id/choice_four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#34B83A"
+        android:backgroundTintMode="add"
+        android:text="@string/food4"
+        app:layout_constraintBottom_toTopOf="@+id/choice_five"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/choice_three" />
+
+    <Button
+        android:id="@+id/choice_five"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#34B83A"
+        android:backgroundTintMode="add"
+        android:text="@string/food5"
+        app:layout_constraintBottom_toTopOf="@+id/choice_six"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/choice_four" />
+
+    <Button
+        android:id="@+id/choice_six"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#34B83A"
+        android:backgroundTintMode="add"
+        android:text="@string/food6"
+        app:layout_constraintBottom_toTopOf="@+id/choice_seven"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/choice_five" />
+
+    <Button
+        android:id="@+id/choice_seven"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#34B83A"
+        android:backgroundTintMode="add"
+        android:text="@string/food7"
+        app:layout_constraintBottom_toTopOf="@+id/choice_eight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/choice_six" />
+
+    <Button
+        android:id="@+id/choice_eight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#34B83A"
+        android:backgroundTintMode="add"
+        android:text="@string/food8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/choice_seven" />
+</androidx.constraintlayout.widget.ConstraintLayout>
